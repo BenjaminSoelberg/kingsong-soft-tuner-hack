@@ -12,7 +12,7 @@ You should after the downgrade be able to use [My other patched app](https://git
 
 Direct install/sideloading by clicking on this link on your Android phone: 
 
-[https://github.com/BenjaminSoelberg/wilfa-e-way-electric-scooter-hack/raw/main/EWay_Scooter_v1.2.03_speed.apk](https://github.com/BenjaminSoelberg/wilfa-e-way-electric-scooter-hack/raw/main/EWay_Scooter_v1.2.03_speed.apk)
+[https://github.com/BenjaminSoelberg/kingsong-soft-tuner-hack/raw/main/KingSong_SoftTuner_139_patched.apk](https://github.com/BenjaminSoelberg/kingsong-soft-tuner-hack/raw/main/KingSong_SoftTuner_139_patched.apk)
 
 ## WARNING
 
@@ -27,6 +27,6 @@ Always wear a helmet!
 To build the apk yourself (on linux):
 
 * Run `./init.sh` and then `./apply_patch.sh` to patch and build a new apk
-* Install the resulting apk using your browser on your android phone by going to http://your-local-ip:8000
+* Install the resulting apk using your browser on your android phone by going to http://your-local-wifi-ip:8000
 
-You can find your local ip on linux using `ip addr` or `ifconfig`
+You can find your local wifi ip on linux using `ip addr` or `ifconfig`
