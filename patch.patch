@@ -1,0 +1,24 @@
+Only in KingSong_SoftTuner_139_patched: build
+diff -ru KingSong_SoftTuner_139_original/smali_classes2/com/kingsong/tune/common/net/convert/MyGsonResponseBodyConverter.smali KingSong_SoftTuner_139_patched/smali_classes2/com/kingsong/tune/common/net/convert/MyGsonResponseBodyConverter.smali
+--- KingSong_SoftTuner_139_original/smali_classes2/com/kingsong/tune/common/net/convert/MyGsonResponseBodyConverter.smali	2023-06-08 08:01:49.047525320 +0200
++++ KingSong_SoftTuner_139_patched/smali_classes2/com/kingsong/tune/common/net/convert/MyGsonResponseBodyConverter.smali	2023-06-08 08:02:06.643590744 +0200
+@@ -123,7 +123,7 @@
+ 
+     move-result-object v2
+ 
+-    const-string v3, "1100021"
++    const-string v3, "12345"
+ 
+     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+ 
+diff -ru KingSong_SoftTuner_139_original/smali_classes2/com/kingsong/tune/MyApplication.smali KingSong_SoftTuner_139_patched/smali_classes2/com/kingsong/tune/MyApplication.smali
+--- KingSong_SoftTuner_139_original/smali_classes2/com/kingsong/tune/MyApplication.smali	2023-06-08 08:01:49.023525231 +0200
++++ KingSong_SoftTuner_139_patched/smali_classes2/com/kingsong/tune/MyApplication.smali	2023-06-08 08:02:06.643590744 +0200
+@@ -110,6 +110,7 @@
+ .end method
+ 
+ .method public exit()V
++    return-void
+     .locals 1
+ 
+     .line 132
